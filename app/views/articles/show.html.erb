@@ -10,6 +10,7 @@
         <%= @article.text %>
       </div>
     </div>
-    <%= link_to 'Back', articles_path %>
+    <%= link_to 'Back to index', articles_path %><br>
+    <%= link_to 'Edit', edit_article_path(@article) %>
   </div>
 </div>
